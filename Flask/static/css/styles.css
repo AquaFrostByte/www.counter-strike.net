@@ -1,0 +1,134 @@
+/* Base Page Reset & Layout */
+body {
+    background-color: #001500;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+}
+
+/* Global Typography & Elements */
+.text {
+    font-family: verdana, sans-serif;
+    font-size: 8pt;
+    color: white;
+}
+
+.small {
+    font-family: verdana, sans-serif;
+    font-size: 8pt;
+    color: white;
+}
+
+.pic {
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    z-index: 1;
+}
+
+.text-center { 
+    text-align: center; 
+}
+
+/* Global Links */
+a {
+    font-family: verdana, sans-serif;
+    color: #C6B91C;
+    text-decoration: none;
+}
+
+a:visited, 
+a:active {
+    color: #96964B;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Specific Link Classes */
+a.cnet { 
+    color: blue; 
+}
+
+a.cnet:hover { 
+    color: blue; 
+}
+
+/* Header & Table Elements */
+.header-bg { 
+    background-color: #001500; 
+    width: 100%; 
+} 
+
+.header-mid { 
+    font-size: 12px; 
+    font-weight: bold; 
+    background-color: #313131;
+}
+
+.header-links img { 
+    height: 100px; 
+    width: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Legacy Table Header Classes (Consolidated) */
+td.HeaderLinks {
+    background-color: #001500;
+    border: 0px;
+    color: #ffffff;
+}
+
+td.Headermid {
+    background-color: #313131;
+    border: 0px;
+    color: #ffffff;
+}
+
+/* News Section */
+.news-container {
+    width: 85%;
+    margin: 0 auto 20px auto;
+}
+
+.newshead {
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+    color: #ADA369;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.news {
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.NewsImg {
+    width: 230px;
+    height: 197px;
+}
+
+/* Footer & Miscellaneous */
+.divider-text {
+    font-size: 10px;
+    font-family: verdana, sans-serif;
+    color: #b0b0b0;
+}
+
+.footer-bg { 
+    background-color: #808080; 
+} /* Fixed missing closing brace here */
+
+ul.patch-notes {
+    font-size: 12px;
+    font-family: verdana, sans-serif;
+    margin-top: 5px;
+}
