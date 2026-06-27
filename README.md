@@ -51,16 +51,16 @@ To install the required dependencies, run:
 pip install -r requirements.txt
 ```
 
-#Previews
+# Previews
 
-##Index.html
+## Index.html
 
 <img width="1200" height="1268" alt="image" src="https://github.com/user-attachments/assets/1d0db72b-da61-469c-82a4-6d0f33be7629" />
 
-##Downloads.html
+## Downloads.html
 
 <img width="1200" height="1268" alt="image" src="https://github.com/user-attachments/assets/5fce77de-da54-4677-99af-9839fc0b4c9e" />
 
-##Template.html
+## Template.html
 
 <img width="1200" height="1275" alt="image" src="https://github.com/user-attachments/assets/4c76a531-95c2-42f3-83e6-17baf186182f" />
