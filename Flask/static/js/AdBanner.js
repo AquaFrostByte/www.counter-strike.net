@@ -1,5 +1,5 @@
-
-// Maps dynamic ad assets inside static/img/ads/
+//These are the ad Banners i am not affiliated with anyone of them other then Archmania which is my own Project! :3
+// CHnage these freely to ur likeing!
 const AdBanners = [
     { link: "https://archmania.lain.onl/", img: "/static/img/ads/ArchMainiaAD.gif" },
     { link: "http://www.gamespy.com/", img: "/static/img/ads/GamespyDaily.gif" },
