@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
+    width: 1200px;  /* Caps the width to 1200px for an old look if u want a true original delete this line!*/
 }
 
 /* Global Typography & Elements */

@@ -8,9 +8,15 @@ This project includes a modern **Flask** backend while preserving the classic lo
 
 The website is intentionally lightweight, so it should run well even on older, low-memory PCs.
 
+If u want to see the template its currently hosted on Cstrike2k.lain.onl
+
 ### Why?
 
 I love retro stuff this includes the old Internet. Its sad that sides like this are only preservt in the rather slow Internet Arcive. I want those websites to not only be arcived i want them 2 be used and seen!!
+
+### Watch out!
+
+I didnt clean out all old links! This includes for exampole the [Hosted Sites] most links should be dead but always watch out for that!
 
 ## Modernization
 
@@ -21,6 +27,8 @@ Some parts of the original website have been modernized to improve compatibility
 * Rewritten HTML for modern browser compatibility.
 * Broken or outdated links have either been fixed for Flask or removed.
 * Banner advertisements can be customized by editing `AdBanner.js`.
+
+* There is one change that isnt in the original which i personaly found to be prettyer. That is that the site is contained in 1200px width. This can be changed in the style.css.
 
 ## Template
 
@@ -49,6 +57,7 @@ Home/
 
 ## Requirements
 
+You should have Python installed on the System.
 The Python virtual environment (`.venv`) is **not** included in the repository.
 
 To install the required dependencies, run:
@@ -58,7 +67,7 @@ pip install -r requirements.txt
 ```
 
 If u dont know how to set up a venv this is fine, just follow these stepps:
-Run this in the Flask folder
+Run this in the Flask folder (If u are on Debian u need to use python3 instad of just python)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -73,11 +82,11 @@ pip install -r requirements.txt
 To Run the Site on ur Pc or Server u can use the setup_Cstrike.sh script which makes a Service file:
 
 ```bash
-chmod +x setup_service.sh
+chmod +x setup_Cstrike.sh
 ```
 
 ```bash
-./setup_service.sh
+./setup_Cstrike.sh
 ```
 
 # Previews
@@ -99,6 +108,7 @@ chmod +x setup_service.sh
 # Recources Used
 The main Version i tryed to imitate was the in 2000 Arcived Version of counter-strike.net
 https://www.webdesignmuseum.org/gallery/counter-strike-in-2000
+https://web.archive.org/web/20001019044252/http://www.counter-strike.net/
 
 The AdBanners were from : https://www.banner-depot-2000.net/ (excluding ArchMania which is a Project of mine so made by me :3 )
 
