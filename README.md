@@ -112,3 +112,6 @@ https://web.archive.org/web/20001019044252/http://www.counter-strike.net/
 
 The AdBanners were from : https://www.banner-depot-2000.net/ (excluding ArchMania which is a Project of mine so made by me :3 )
 
+
+
+If you find any Bugs feel free to send me a Mail to cat@grisu.app !
