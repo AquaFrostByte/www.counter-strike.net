@@ -8,7 +8,7 @@ This project includes a modern **Flask** backend while preserving the classic lo
 
 The website is intentionally lightweight, so it should run well even on older, low-memory PCs.
 
-If u want to see the template its currently hosted on Cstrike2k.lain.onl
+If u want to see the template its currently hosted on cstrike2k.lain.onl
 
 ### Why?
 
