@@ -8,6 +8,10 @@ This project includes a modern **Flask** backend while preserving the classic lo
 
 The website is intentionally lightweight, so it should run well even on older, low-memory PCs.
 
+### Why?
+
+I love retro stuff this includes the old Internet. Its sad that sides like this are only preservt in the rather slow Internet Arcive. I want those websites to not only be arcived i want them 2 be used and seen!!
+
 ## Modernization
 
 Some parts of the original website have been modernized to improve compatibility while keeping the original design intact.
@@ -25,6 +29,8 @@ This recreation is mainly intended as a template that others can use as a starti
 Most of the original content has been removed, leaving only example content to demonstrate where different elements belong.
 
 I also plan to base my own personal website on this project, which will be released separately.
+
+There is an Cstrike2k.service file with what u can easely auto deploy it on a Linux server.
 
 ## Project Structure
 
@@ -51,6 +57,29 @@ To install the required dependencies, run:
 pip install -r requirements.txt
 ```
 
+If u dont know how to set up a venv this is fine, just follow these stepps:
+Run this in the Flask folder
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Then u can install the requirements :
+
+```bash
+pip install -r requirements.txt
+```
+
+To Run the Site on ur Pc or Server u can use the setup_Cstrike.sh script which makes a Service file:
+
+```bash
+chmod +x setup_service.sh
+```
+
+```bash
+./setup_service.sh
+```
+
 # Previews
 
 ## Index.html
@@ -64,3 +93,12 @@ pip install -r requirements.txt
 ## Template.html
 
 <img width="1200" height="1275" alt="image" src="https://github.com/user-attachments/assets/4c76a531-95c2-42f3-83e6-17baf186182f" />
+
+
+
+# Recources Used
+The main Version i tryed to imitate was the in 2000 Arcived Version of counter-strike.net
+https://www.webdesignmuseum.org/gallery/counter-strike-in-2000
+
+The AdBanners were from : https://www.banner-depot-2000.net/ (excluding ArchMania which is a Project of mine so made by me :3 )
+
