@@ -1,9 +1,9 @@
 #!/bin/bash
-
+# THis script got tested on Arch Linux as well as Debian 15. IF it dosent work please write mn! Also iam not responsible for any damage, it should inflict any but still. This script also needs root premissions to work :C
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-# Define variables
+# Define variables these can be changed if u want but i wouldnt recommend it
 SERVICE_NAME="cstrike2k"
 SERVICE_FILE="/etc/systemd/system/${SERVICE_NAME}.service"
 PROJECT_DIR=$(pwd)

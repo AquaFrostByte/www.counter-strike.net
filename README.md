@@ -40,6 +40,9 @@ I also plan to base my own personal website on this project, which will be relea
 
 There is an Cstrike2k.service file with what u can easely auto deploy it on a Linux server.
 
+AND FOR CLARIFICATION!!
+Every site that has the TEMPLATE.html is the same just with diffrent content which i didnt implement becuase its just unneeded!! The user should decide what to add as content!
+
 ## Project Structure
 
 ```text
@@ -51,8 +54,6 @@ Flask/
   ├──Index.htlm    -> The Start site which has a bit diffrent width then the other Sides.
   ├──Download.html -> The Site that would have noramly linked all downloads.
   ├──Template.html -> General Template for all other sites that would have been About and so on they are all the same.
-Home/
-├── My personal website (coming soon)
 ```
 
 ## Requirements
@@ -114,4 +115,4 @@ The AdBanners were from : https://www.banner-depot-2000.net/ (excluding ArchMani
 
 
 
-If you find any Bugs feel free to send me a Mail to cat@grisu.app !
+If you find any Bugs feel free to send me a Mail to cat@grisu.app or discord at Aquafrostbyte!
